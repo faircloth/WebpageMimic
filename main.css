@@ -1,0 +1,25 @@
+.top-menu {
+  list-style: none;
+  display: inline-block;
+}
+
+.background-banner {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 600px;
+  height: 200px;
+  background: url(https://github.com/tiy-atl-js-sept-2015/Assignments/blob/master/Assignment-04/Normal-Mode/assets/background.jpg?raw=true);
+  background-position: 0px 200px fixed;
+  background-size: cover;
+  position: relative;
+}
+
+p.background-text {
+  color: white;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  position: absolute;
+  left: auto;
+  right: auto;
+}
