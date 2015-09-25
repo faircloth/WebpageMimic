@@ -31,7 +31,7 @@ li.top-menu {
   display: block;
 }
 
-p.background-text {
+.background-text {
   color: white;
   font-size: 20px;
   display: inline-block;
@@ -54,7 +54,7 @@ div.option-block {
   box-sizing: border-box;
   width: 175px;
   height: 380px;
-  margin: 5px 10px;
+  margin: 5px 5px;
   border: 1px solid black;
   display: inline-block;
   position: relative;
@@ -71,4 +71,43 @@ div.option-price {
   left: 1px;
   right: 1px;
   top: 1px;
+}
+
+.plan-type {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid black;
+  background-color: green;
+  width: 171px;
+  height: 20px;
+  text-align: center;
+  color: white;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.plan-price {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid black;
+  background-color: green;
+  width: 171px;
+  text-align: center;
+  color: white;
+  margin: 0px;
+  margin-top: 5px;
+  font-size: 250%;
+}
+
+.per-month {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid black;
+  background-color: green;
+  width: 171px;
+  height: 20px;
+  text-align: center;
+  color: white;
+  margin: 0px;
+  margin-top: 5px;
 }
