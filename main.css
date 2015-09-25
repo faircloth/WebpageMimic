@@ -47,7 +47,7 @@ div.three-options-block {
   height: 400px;
   margin: 20px auto;
   border: 1px solid black;
-  padding: 5px;
+  padding: 2px;
 }
 
 div.option-block {
@@ -70,7 +70,7 @@ div.option1-price {
   display: block;
   text-align: center;
   color: white;
-  margin: 2px;
+  margin: 2px 0px;
 }
 
 .plan-price {
@@ -78,14 +78,14 @@ div.option1-price {
   text-align: center;
   color: white;
   font-size: 300%;
-  margin: 5px;
+  margin: 5px 0px;
 }
 
 .per-month {
   display: block;
   text-align: center;
   color: white;
-  margin: 2px;
+  margin: 2px 0px;
 }
 
 .features {
@@ -95,4 +95,15 @@ div.option1-price {
   color: blue;
   line-height: 35px;
   border-bottom: 1px solid gray;
+}
+
+button {
+  display: block;
+  font-style: bold;
+  background-color: white;
+  margin: 15px auto;
+  padding: 2px;
+  border-color: gray;
+  width: 80px;
+  border-radius: 5px;
 }
