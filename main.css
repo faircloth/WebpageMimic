@@ -1,15 +1,14 @@
 body {
   display: grid;
   font-size: 14px;
+  color: #494646;
 }
 
 div.top-menu-block {
   box-sizing: border-box;
-  border: 1px solid black;
   width: 800px;
   height: 30px;
   overflow: hidden;
-  margin: 0 auto;
   display: block;
 }
 
@@ -19,26 +18,28 @@ li.top-menu {
   margin: 5px;
 }
 
+.selected {
+  font-weight: bold;
+}
 
 .background-banner {
-  box-sizing: border-box;
-  margin: 0px auto 40px;
-  max-width: 800px;
-  height: 200px;
-  background: url(https://github.com/tiy-atl-js-sept-2015/Assignments/blob/master/Assignment-04/Normal-Mode/assets/background.jpg?raw=true);
-  background-position: 0px 200px fixed;
-  background-size: cover;
-  position: relative;
   display: block;
+  width: 99%;
+  height: 200px;
+  overflow: hidden;
+  margin: 0 auto;
+  background-image: url("https://github.com/tiy-atl-js-sept-2015/Assignments/blob/master/Assignment-04/Normal-Mode/assets/background.jpg?raw=true")
 }
 
 .background-text {
+  display: block;
   color: white;
   font-size: 20px;
-  display: inline-block;
   text-align: center;
   position: absolute;
-  margin: auto;
+  top: 100px;
+  box-sizing: border-box;
+  width: 99%;
 }
 
 div.three-options-block {
@@ -47,8 +48,7 @@ div.three-options-block {
   justify-content: space-between;
   width: 600px;
   height: 400px;
-  margin: 20px auto 40px;
-  border: 1px solid black;
+  margin: 20px auto 30px;
   padding: 5px;
 }
 
@@ -108,7 +108,7 @@ div.option3-price {
 
 .features {
   display: block;
-  background-color: lightgray;
+  background-color: #f9f4f4;
   text-align: center;
   color: blue;
   line-height: 35px;
@@ -131,8 +131,7 @@ button {
   display: flex;
   justify-content: space-between;
   width: 600px;
-  margin: 20px auto;
-  border: 1px solid black;
+  margin: 15px auto;
   padding: 5px;
 }
 
@@ -150,11 +149,12 @@ button {
 
 .description-text {
   margin-top: 10px;
+  line-height: 20px;
 }
 
 .footer-bar {
   display: block;
-  width: 98%;
+  width: 99%;
   margin: 0 auto;
   background-color: black;
   text-align: center;
