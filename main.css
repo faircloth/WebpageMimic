@@ -11,6 +11,7 @@ div.top-menu-block {
   height: 30px;
   overflow: hidden;
   display: block;
+  margin: 0 auto;
 }
 
 li.top-menu {
@@ -23,10 +24,10 @@ li.top-menu {
   font-weight: bold;
 }
 
-.background-banner {
+div.background-banner {
   display: block;
-  width: 99%;
-  height: 200px;
+  width: 800px;
+  height: 300px;
   overflow: hidden;
   background-size: cover;
   margin: 0 auto;
@@ -38,17 +39,16 @@ li.top-menu {
   color: white;
   font-size: 180%;
   text-align: center;
-  position: absolute;
-  top: 100px;
   box-sizing: border-box;
-  width: 99%;
+  max-width: 100%;
+  padding: 100px;
 }
 
 div.three-options-block {
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
-  width: 600px;
+  width: 650px;
   height: 400px;
   margin: 20px auto 30px;
   padding: 5px;
@@ -67,7 +67,7 @@ div.option1-price {
   width: 100%;
   height: 30%;
   background-color: #4ca13f;
-  padding: 4%;
+  padding: 3%;
 }
 
 div.option2-price {
@@ -75,7 +75,7 @@ div.option2-price {
   width: 100%;
   height: 30%;
   background-color: #385a81;
-  padding: 4%;
+  padding: 3%;
 }
 
 div.option3-price {
@@ -83,7 +83,7 @@ div.option3-price {
   width: 100%;
   height: 30%;
   background-color: #292727;
-  padding: 4%;
+  padding: 3%;
 }
 
 .plan-type {
@@ -132,7 +132,7 @@ button {
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
-  width: 600px;
+  width: 650px;
   margin: 15px auto;
   padding: 5px;
 }
