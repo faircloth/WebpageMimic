@@ -47,7 +47,7 @@ div.three-options-block {
   justify-content: space-between;
   width: 600px;
   height: 400px;
-  margin: 20px auto;
+  margin: 20px auto 40px;
   border: 1px solid black;
   padding: 5px;
 }
@@ -124,4 +124,30 @@ button {
   border-color: gray;
   width: 80px;
   border-radius: 5px;
+}
+
+.description-block {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin: 20px auto;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.description-content {
+  display: inline-block;
+  padding: 8px;
+}
+
+.headline {
+  font-weight: bold;
+  font-size: 120%;
+  display: block;
+  padding-bottom: 8px;
+}
+
+.description-text {
+  margin-top: 10px;
 }
