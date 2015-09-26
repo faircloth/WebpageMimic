@@ -22,7 +22,7 @@ li.top-menu {
 
 .background-banner {
   box-sizing: border-box;
-  margin: 0 auto;
+  margin: 0px auto 40px;
   max-width: 800px;
   height: 200px;
   background: url(https://github.com/tiy-atl-js-sept-2015/Assignments/blob/master/Assignment-04/Normal-Mode/assets/background.jpg?raw=true);
@@ -150,4 +150,25 @@ button {
 
 .description-text {
   margin-top: 10px;
+}
+
+.footer-bar {
+  display: block;
+  width: 98%;
+  margin: 0 auto;
+  background-color: black;
+  text-align: center;
+}
+
+.footer-text {
+  display: inline-block;
+  color: white;
+  box-sizing: content;
+  padding: 10px;
+  font-size: 85%;
+}
+
+a {
+  color: white;
+  display: inline-block;
 }
