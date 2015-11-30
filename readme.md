@@ -1,5 +1,10 @@
 Week 1 Assignment
 
-####Overview
+###Overview
+Early exercise to learn CSS layout. The exercise involved using a provided wireframe to mimic an actual webpage.
 
-####Key concepts
+###Key concepts
+* CSS layout, inluding:
+* Box model
+* Multiple-column layout
+* User experience
